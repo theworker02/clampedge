@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/clampedge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clamp lightweight edge statistics from stdin samples.",
+  "bin": {
+    "clampedge": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/clampedge.git"
+  },
+  "homepage": "https://theworker02.github.io/clampedge/",
+  "keywords": [
+    "clamp",
+    "edge",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
